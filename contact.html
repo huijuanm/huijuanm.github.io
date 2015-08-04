@@ -1,0 +1,153 @@
+<!doctype html>
+<html>
+    <head>
+        <style>
+        body {
+        background-image: url("winter.jpg");
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        font-family: "Lato",Arial,Helvetica,sans-serif;
+        }
+        .div1 {
+            background-color:rgba(0,0,0,.4);
+            margin-top: 45px;
+            height: 69px;
+            width:100%;
+            margin-left: 0px;
+
+        }
+        .div2 {
+            background-color:rgba(192,192,192,.6);
+            margin-top:45px;
+            height:459px;
+            margin-left:10%;
+            margin-right:10%;
+            padding: 25px;
+            border-radius:15px;
+        }
+        .divinner {
+            background:url("winter.jpg") no-repeat;
+            background-size:cover;
+            margin-top:0px;
+            height:100%;
+            
+            padding-left:;
+        }
+        .divleft {
+            background-color:rgba(255,255,255,0.4);
+            height:100%;
+
+            width:60%;
+            display:inline-block;
+
+        }
+        .divright {
+            background-color:rgba(255,255,255,0);
+            height:100%;
+            width:40%;
+            float:right;
+
+        }
+        .inputname, .inputemail, .inputsubject, .inputmsg {
+            border: 5px solid #FFF;
+            color: #000;
+            margin: 0px 0px 5px;
+            width: 90%;
+            border-radius:5px;
+            box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.6);
+        }
+        .inputbutton {
+            border: 5px solid #FFF;
+            color: #000;
+            margin-right:20px;
+            background-color: #fff;
+            float:right;
+            border-radius:5px;
+            box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.6);
+        }
+       
+        a {
+        text-decoration: none;
+        font-weight:bold;
+        font-size:20px;
+        text-shadow: 0px 0px 0px;
+        cursor:pointer;
+        opacity:1;}
+        a:link {
+            color: whitesmoke;
+        }
+        a:visited {
+            color:yellowgreen;
+        }
+        .a1 {
+        font-family: bodoni-w01-poster,bodoni-poster-w10,fantasy;;
+        font-size:48px;
+        font-weight:bolder;
+        text-shadow: 0px 2px 2px;
+        cursor:auto;}
+        .pp {
+            color:whitesmoke;
+            font: 12px/1.3em "Open Sans",sans-serif;
+            font-size:15px;
+        }
+        .placeholder {
+            text-align:left;
+        }
+        
+        </style>
+    </head>
+    <body>
+        <div class="div2" >
+            <div class="divinner">
+                <div class="divleft">
+                    <H2 style="margin-left:10px; text-align:center">
+                    Huijuan Ma Contact
+                    </H2>
+                    <p style="margin-left:10px; margin-right:10px">
+                    Please enter contact information here:
+                    </p>
+                    <form action="demo_form.asp">
+                    <input class="inputname" type="text" placeholder="Name" style="margin-left:10px;margin-right=10px">
+                    </input>
+                    <input class="inputemail" type="text" placeholder="Email" style="margin-left:10px;margin-right=10px">
+                    </input>
+                    <input class="inputsubject" type="text" placeholder="Subject" style="margin-left:10px;margin-right=10px">
+                    </input>
+                    <textarea class="inputmsg" placeholder="Message" style="margin-left:10px;margin-right=10px;height:150px">
+                    </textarea>
+                    </form>
+                    <button class="inputbutton" type="button" onclick="alert('Thank you for contacting!')">
+                    Send
+                    </button>
+                </div>
+                <div class="divright">
+
+                </div>
+            </div>
+        </div>
+        <div class="div1">
+            <a class="a1" href="" style="margin-left:50px">
+            Juaner
+            </a>
+            
+            <a href="contact.html" style="float:right;margin-top:25px;margin-right:20px">
+            Contact
+            </a>
+            <a href="pswd.html" style="float: right; margin-top:25px;margin-right:20px">
+            Portfolio
+            </a>
+            <a href="about.html" style="float:right; margin-top:25px;margin-right:20px">
+            About
+            </a>
+            <a href="index.html" style="float:right; margin-top:25px;margin-right:20px">
+            Home
+            </a>
+            
+        </div>
+
+        <p class="pp" style="margin-top:0px;margin-left:50px">
+        ©2015 by Juaner. All Rights Reserved.
+        </p>
+    </body>
+</html>
